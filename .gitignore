@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated / large binary artifacts — rebuild with ingest + index_build
+data/processed/faiss.index
+data/processed/documents.pkl
+
+# Evaluation output (generated; commit manually if desired)
+eval/evaluation.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
